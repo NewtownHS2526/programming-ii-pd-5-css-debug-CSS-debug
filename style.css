@@ -1,0 +1,355 @@
+/* CSS Debug Activity - Find and Fix 50 Errors! */
+/* Instructions: There are 50 intentional errors in this CSS file. Fix them all! */
+
+/* Error 1: Missing semicolon */
+* {
+    margin: 0
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Error 2: Wrong property name */
+body {
+    font-familly: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    /* Error 3: Invalid color value */
+    background-color: #gggggg;
+}
+
+/* Error 4: Missing closing brace */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+/* Error 5: Wrong selector syntax */
+main-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    /* Error 6: Invalid property value */
+    position: fix;
+}
+
+/* Error 7: Missing colon */
+#site-title {
+    font-size 2.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+/* Error 8: Wrong property name */
+.navigation {
+    margintop: 1rem;
+}
+
+/* Error 9: Invalid selector */
+ul.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* Error 10: Missing semicolon */
+    gap: 2rem
+}
+
+/* Error 11: Wrong property value */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bolt;
+    /* Error 12: Invalid unit */
+    padding: 0.5rem 1rempx;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Error 13: Missing colon */
+.nav-link:hover {
+    background-color #34495e;
+}
+
+/* Error 14: Wrong property name */
+.main-content {
+    min-hight: 80vh;
+    padding: 2rem 0;
+}
+
+/* Error 15: Invalid property value */
+.hero-section {
+    text-align: center;
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    /* Error 16: Missing semicolon */
+    margin-bottom: 3rem
+}
+
+/* Error 17: Wrong selector */
+hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    /* Error 18: Invalid property value */
+    font-weight: 90000;
+}
+
+/* Error 19: Missing closing brace */
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+/* Error 20: Wrong property name */
+.cta-button {
+    backgroundcolor: #e74c3c;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Error 21: Invalid pseudo-class */
+.cta-button:hovered {
+    background-color: #c0392b;
+}
+
+/* Error 22: Missing colon */
+.features-section {
+    padding 4rem 0;
+    background-color: #f8f9fa;
+}
+
+/* Error 23: Wrong property value */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+    /* Error 24: Invalid property */
+    font-style: heavy;
+}
+
+/* Error 25: Missing semicolon */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Error 26: Wrong property name */
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-aligh: center;
+    transition: transform 0.3s ease;
+}
+
+/* Error 27: Invalid selector */
+.feature-card:hover: {
+    transform: translateY(-5px);
+}
+
+/* Error 28: Missing closing brace */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+
+/* Error 29: Wrong property value */
+.card-description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    /* Error 30: Invalid unit */
+    font-size: 1rem%;
+}
+
+/* Error 31: Missing colon */
+.feature-image {
+    width 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Error 32: Wrong property name */
+.special-card {
+    border: 3px solid #3498db;
+    backgroundcolor: #ecf0f1;
+}
+
+/* Error 33: Invalid property value */
+.testimonials-section {
+    padding: 4rem 0;
+    background-color: #2c3e50;
+    color: white;
+    /* Error 34: Missing semicolon */
+    text-align: center
+}
+
+/* Error 35: Wrong selector syntax */
+testimonials-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+/* Error 36: Invalid property */
+.testimonial {
+    background: rgba(255,255,255,0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    /* Error 37: Wrong property value */
+    border-left: 4px solid #3498db;
+    font-stile: italic;
+}
+
+/* Error 38: Missing colon */
+.testimonial.highlighted {
+    background rgba(52, 152, 219, 0.2);
+    border-left-color: #e74c3c;
+}
+
+/* Error 39: Wrong property name */
+.testimonial-text {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-hight: 1.6;
+}
+
+/* Error 40: Invalid selector */
+.testimonial-author:: {
+    font-weight: bold;
+    color: #bdc3c7;
+}
+
+/* Error 41: Missing semicolon */
+.contact-section {
+    padding: 4rem 0;
+    background-color: #ecf0f1
+}
+
+/* Error 42: Wrong property value */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    /* Error 43: Invalid property */
+    border-stile: none;
+}
+
+/* Error 44: Missing closing brace */
+.form-group {
+    margin-bottom: 1.5rem;
+
+/* Error 45: Wrong property name */
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    fontsize: 1rem;
+}
+
+/* Error 46: Invalid property value */
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    /* Error 47: Wrong property name */
+    font-familly: inherit;
+    transition: border-color 0.3s ease;
+}
+
+/* Error 48: Missing colon */
+.form-input:focus, .form-textarea:focus {
+    outline none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+/* Error 49: Invalid property value */
+.submit-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    /* Error 50: Wrong property value */
+    font-weight: heavy;
+}
+
+.submit-btn:hover {
+    background-color: #229954;
+}
+
+/* Footer styles - these are correct! */
+.main-footer {
+    background-color: #34495e;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-text {
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #2c3e50;
+}
+
+/* Responsive design - these are correct! */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonials-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
